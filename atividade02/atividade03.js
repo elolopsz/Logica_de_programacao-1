@@ -13,8 +13,8 @@ rl.question("Digite sua quarta nota", function(nota4){
     }else{
         console.log("Voce foi reprovado");
         
-    }
-});   
-})
-});
+       }
+     });   
+   });
+  });
 });
