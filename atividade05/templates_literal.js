@@ -11,13 +11,15 @@ console.log(`o produto custa R$ ${preco - desconto} e com desconto de R$ ${desco
 
 const nomeAluno = "Maria";
 const disciplina = "Matemática";
-nota = 8;
-nota2 = 5
+const nota = 8;
+const nota2 = 5;
 const resultado = `
 --- boletim escolar ---;
  aluno ${nomeAluno};
  disciplina ${disciplina};
  nota 1: ${nota};
+ nota 2: ${nota2};
+ media: ${(nota + nota2) / 2};
 status ${nota >= 6 ? "aprovado" : "reprovado"};
 `;
 console.log(resultado);
